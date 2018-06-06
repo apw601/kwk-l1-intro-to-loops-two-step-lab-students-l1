@@ -1,7 +1,7 @@
 def kwk
   days = 2
   days_left = 8
-  until days > 10 && days_left == 0 do
+  until days == 10 && days_left == 0 do
   puts "Keep coming to Camp!"
   puts "You have #{days_left - 1} days left"
   days += 1
